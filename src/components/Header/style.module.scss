@@ -1,0 +1,21 @@
+.headerBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  padding-top: 80px;
+  padding-bottom: clamp(19px, 10vw, 35px);
+
+  & > div {
+    display: flex;
+    justify-content: space-between;
+
+    & > h1 {
+      //   width: 100%;
+      width: clamp(140px, 20vw, 190px);
+      color: white;
+      font-size: 26px;
+      text-align: center;
+    }
+  }
+}
